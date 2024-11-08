@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Modal.css';
+import './modal.css';
 import logoPerfil from "../../../assets/logoPerfil.svg";
 
 function Modal({ isOpen, onRequestClose }) {
