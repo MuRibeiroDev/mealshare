@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Modal2.css';
+import './modal2.css';
 import menos from "../../../assets/menos.svg";
 import mais from "../../../assets/mais.svg";
 

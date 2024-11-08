@@ -1,5 +1,5 @@
 import React from 'react';
-import './Modal3.css';
+import './modal3.css';
 
 
 function Modal3({ isOpen, onRequestClose }) {
