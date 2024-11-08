@@ -1,0 +1,51 @@
+/* Variáveis globais */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #3B6978;
+    --secondary-color: #D4A017;
+    --text-color: #ffffff;
+    --text-color-secondary: #4D4D4D;
+    --font-family: "Montserrat", sans-serif;
+    --button-padding: 8px 15px;
+    --border-radius: 10px;
+    --padding: 2rem 5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: .3s ease-in;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+
+.nav-btn {
+    padding: var(--button-padding);
+    border-radius: var(--border-radius);
+    border: 2px solid transparent;
+    background-color: #3b6978a2;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.nav-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}

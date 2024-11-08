@@ -1,0 +1,119 @@
+.section3 {
+    background-color: #D9EAD3;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    padding-bottom: 7rem;
+}
+
+.sobre-transparencia {
+    padding: 4rem 75px 0px 0px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.transparencia {
+    width: 50%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #D4A017;
+    border-radius: 0px 400px 400px 0px;
+    padding-left: 75PX;
+    gap: 1.5rem;
+}
+
+.transparencia>h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.transparencia>p {
+    font-size: 1.25rem;
+}
+
+.btn-transparencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn-transparencia>button {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    letter-spacing: 1.8px;
+    border: 1px solid #4D4D4D;
+}
+
+#btn-estatuto, #btn-codigo {
+    background-color: #2F4F4F;
+}
+
+#btn-praticas {
+    background-color: #3B6978;
+}
+
+
+.sobre-relatorio {
+    margin-top: 2rem;
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.relatorio-anual {
+    background-color: #F5F5DC;
+    width: 50%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: end;
+    border-radius: 400px 0px 0px 400px;
+    padding-right: 75PX;
+    gap: 1.5rem;
+}
+
+.relatorio-anual>h1 {
+    font-weight: 900;
+    color: #4D4D4D;
+    font-size: 3.5rem;
+}
+
+.relatorio-anual>p {
+    font-size: 1.25rem;
+    color: #4D4D4D;
+}
+
+.btn-relatorio {
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%; 
+}
+.btn-relatorio > button {
+    height: 3rem;
+    width: 12rem;
+    background-color: #D4A017;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
